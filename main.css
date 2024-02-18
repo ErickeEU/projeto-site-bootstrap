@@ -1,0 +1,40 @@
+header {
+    background-color: #cfbeda;
+}
+
+body{
+    background-color: #efe9f3;
+}
+
+.cardsection {
+    display: grid;
+    grid-template-columns: repeat(3, 33%);
+    column-gap: 2%;
+}
+
+@media screen and (max-width: 600px) {
+
+    #createaccount {
+        justify-content: center;
+    }
+
+    .cardsection {
+        display: grid;
+        grid-template-columns: 100%;
+        column-gap: 2%;
+        row-gap: 2%;
+    }
+}
+
+@media screen and (min-width: 600px) and (max-width: 992px) {
+    #createaccount {
+        justify-content: center;
+    }
+
+    .cardsection {
+        display: grid;
+        grid-template-columns: repeat(2, 50%);
+        column-gap: 2%;
+        row-gap: 2%;
+    }
+}

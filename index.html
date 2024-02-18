@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Empório Felino</title>
+    <link rel="stylesheet" href="./lib/bootstrap.min.css">
+    <link rel="stylesheet" href="main.css">
+</head>
+<body>
+    <header>
+    <div class="container d-flex align-items-center">
+        <div class="container-fluid">
+            <nav class="navbar navbar-expand-lg me-auto">
+                <a class="navbar-brand" href="#">Empório Felino</a>
+                <button type="button" class="navbar-toggler" data-bs-toggle="collapse" data-bs-target="#navbarcontent">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div id="navbarcontent" class="collapse navbar-collapse">
+                    <ul class="navbar-nav me-auto">
+                        <li class="navbar-item">
+                            <a href="#" class="nav-link active">Home</a>
+                        </li>
+                        <li class="navbar-item">
+                            <a href="#gatos" class="nav-link">Catálogo</a>
+                        </li>
+                        <li class="navbar-item">
+                            <a href="#" class="nav-link">Sobre</a>
+                        </li>
+                        <li class="navbar-item">
+                            <a href="#" class="nav-link">Contato</a>
+                        </li>
+                    </ul>
+                    <form action="" class="d-flex me-auto p-2">
+                        <input type="search" class="form-control me-3 " placeholder="Pesquise aqui...">
+                        <button type="submit" class="btn btn-primary">Pesquisar</button>
+                    </form>
+                    <ul class="nav " id="createaccount">
+                        <li class="nav-item">
+                            <a class="nav-link text-dark" href="">Login</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link text-dark" href="">Crie sua conta</a>
+                        </li>
+                    </ul>
+                </div>
+            </nav>
+        </div>
+    </div>
+    </header>
+    <div id="maincarousel" class="carousel slide" data-bs-ride="carousel">
+        <div class="carousel-inner">
+            <div class="carousel-item active" data-bs-interval="2000">
+                <img src="http://placekitten.com/1500/500" alt="" class="d-block w-100">
+            </div>
+            <div class="carousel-item" data-bs-interval="2000">
+                <img src="http://placekitten.com/600/200" alt="" class="d-block w-100">
+            </div>
+            <div class="carousel-item" data-bs-interval="2000">
+                <img src="http://placekitten.com/900/300" alt="" class="d-block w-100">
+            </div>
+            <div class="carousel-item" data-bs-interval="2000">
+                <img src="http://placekitten.com/1200/400" alt="" class="d-block w-100">
+            </div>
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#maincarousel" data-bs-slide="prev">
+            <span class="carousel-control-prev-icon"></span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#maincarousel" data-bs-slide="next">
+            <span class="carousel-control-next-icon"></span>
+        </button>
+        <div class="carousel-indicators">
+            <button type="button" data-bs-target="#maincarousel" class="active" data-bs-slide-to="0"></button>
+            <button type="button" data-bs-target="#maincarousel" data-bs-slide-to="1"></button>
+            <button type="button" data-bs-target="#maincarousel" data-bs-slide-to="2"></button>
+            <button type="button" data-bs-target="#maincarousel" data-bs-slide-to="3"></button>
+        </div>
+    </div>
+
+    <div class="container mt-4">
+        <section class="cardsection" id="gatos">
+            <div>
+                <div class="card">
+                    <div class="card-header">
+                        SUPER OFERTA!
+                    </div>
+                    <img src="http://placekitten.com/100/100" class="card-img-top" alt="">
+                    <div class="card-body">
+                        <h5 class="card-title">Gato à venda</h5>
+                        <p class="card-text"> De <del>500 conto</del> por apenas DE GRAÇA</p>
+                        <button class="btn btn-primary">Comprar</button>
+                    </div>
+                </div>
+            </div>
+            <div>
+                <div class="card">
+                    <div class="card-header">
+                        SUPER OFERTA!
+                    </div>
+                    <img src="http://placekitten.com/100/100" class="card-img-top" alt="">
+                    <div class="card-body">
+                        <h5 class="card-title">Gato à venda</h5>
+                        <p class="card-text"> De <del>500 conto</del> por apenas DE GRAÇA</p>
+                        <button class="btn btn-primary">Comprar</button>
+                    </div>
+                </div>
+            </div>
+            <div>
+                <div class="card">
+                    <div class="card-header">
+                        SUPER OFERTA!
+                    </div>
+                    <img src="http://placekitten.com/100/100" class="card-img-top" alt="">
+                    <div class="card-body">
+                        <h5 class="card-title">Gato à venda</h5>
+                        <p class="card-text"> De <del>500 conto</del> por apenas DE GRAÇA</p>
+                        <button class="btn btn-primary">Comprar</button>
+                    </div>
+                </div>
+            </div> 
+        </section>
+    </div>
+
+    <script src="./lib/bootstrap.bundle.min.js"></script>
+</body>
+</html>
